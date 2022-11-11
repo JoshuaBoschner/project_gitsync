@@ -13,5 +13,4 @@ def get_directory():
 
 def get_repository(path_to_push):
     repo = Repo(path_to_push)
-    print_info_message(repo)
     return repo

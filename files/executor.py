@@ -2,14 +2,14 @@ from files.log import print_commit_message, print_custom_error_message, print_in
 
 
 def git_push(repo):
-    print_info_message('Trying to ')
+    print_info_message('Trying to push changes to remote repository')
     try:
         origin = repo.remote(name='origin')
         origin.push()
     except:
-        print_custom_error_message('Failed to ')
+        print_custom_error_message('Failed to push changes to remote repository')
     finally:
-        print_info_message('Successfully ')
+        print_info_message('Successfully push changes to remote repository')
 
 
 def git_add(repo):
@@ -23,20 +23,20 @@ def git_add(repo):
 
 
 def git_commit(repo):
-    print_info_message('Trying to ')
+    print_info_message('Trying to commit staged changes to local repository')
     try:
         repo.index.commit(print_commit_message())
     except:
-        print_custom_error_message('Failed to ')
+        print_custom_error_message('Failed to commit staged changes to local repository')
     finally:
-        print_info_message('Successfully ')
+        print_info_message('Successfully committed staged changes to local repository')
 
 
 def git_pull(repo):
-    print_info_message('Trying to ')
+    print_info_message('Trying to pull changes from remote repository')
     try:
         repo.git.pull()
     except:
-        print_custom_error_message('Failed to ')
+        print_custom_error_message('Failed to pull changes from remote repository')
     finally:
-        print_info_message('Successfully ')
+        print_info_message('Successfully pulled changes from remote repository')
