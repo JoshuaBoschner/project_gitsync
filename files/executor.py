@@ -1,4 +1,4 @@
-from files.log import print_commit_message, print_custom_error_message, print_info_message
+from files.log import get_commit_message, print_add_message, print_commit_message, print_custom_error_message, print_info_message
 
 
 def git_push(repo):
@@ -21,19 +21,19 @@ def git_add(repo):
         print_custom_error_message('Failed to add changes from working directory to staging area')
         raise
     finally:
-        print_info_message('Successfully added changes from working directory to staging area')
+        print_add_message('Successfully added changes from working directory to staging area')
 
 
 def git_commit(repo):
     print_info_message('Trying to commit staged changes to local repository')
     try:
-        commit_message = print_commit_message()
+        commit_message = get_commit_message()
         repo.index.commit(commit_message)
     except:
         print_custom_error_message('Failed to commit staged changes to local repository')
         raise
     finally:
-        print_info_message('Successfully committed staged changes to local repository')
+        print_commit_message('Successfully committed staged changes to local repository')
 
 
 def git_pull(repo):
