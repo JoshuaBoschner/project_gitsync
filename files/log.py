@@ -1,12 +1,8 @@
 from conf.static import COMMIT_MESSAGE, ERROR_MESSAGE
 
 
-def print_init_message(message):
-    print('Init  | ' + message)
-
-
 def print_info_message(message):
-    print('Info  | ' + message)
+    print('Info   | ' + message)
 
 
 def print_commit_message():
@@ -15,8 +11,8 @@ def print_commit_message():
 
 
 def print_push_error_message():
-    print('Error | ' + ERROR_MESSAGE)
+    print('Error  | ' + ERROR_MESSAGE)
 
 
 def print_custom_error_message(message):
-    print('Error | ' + message)
+    print('Error  | ' + message)
