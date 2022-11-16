@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8035a317-29f1-46b9-9fd6-a967084b1f63" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gitsync.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gitsync.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/1/01742f230484aedbac6192272cf4f5ced0ae15a3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/6/96ae61b8916cc0f3e78ee900878b635fa5fe57c6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/7/a77e4fd37656c83813e5ab45383a86390e560dc1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/c/acd62680843703ae15352293f66170b1f8b51bcd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/1/f1bdda93d9a278e358509d498e17d97764c1fb29" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/executor.py" beforeDir="false" afterPath="$PROJECT_DIR$/files/executor.py" afterDir="false" />
     </list>
     <list id="c0656e9e-1d45-4381-ae26-c5b864aba267" name="Unversioned Files - idea" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +75,7 @@
       <workItem from="1668184404481" duration="418000" />
       <workItem from="1668237704174" duration="533000" />
       <workItem from="1668609083500" duration="466000" />
-      <workItem from="1668609568832" duration="297000" />
+      <workItem from="1668609568832" duration="839000" />
     </task>
     <servers />
   </component>
@@ -113,6 +105,6 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/gitsync$main.coverage" NAME="main Coverage Results" MODIFIED="1668184821026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/gitsync$main.coverage" NAME="main Coverage Results" MODIFIED="1668610385807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

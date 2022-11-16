@@ -3,12 +3,9 @@ import os
 
 from git import Repo
 
-from files.log import print_info_message
-
 
 def get_directory():
     current_working_directory = os.getcwd()
-    print_info_message('Directory path: ' + current_working_directory)
     return current_working_directory
 
 

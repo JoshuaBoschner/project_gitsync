@@ -1,4 +1,5 @@
 from conf.static import COMMIT_MESSAGE, ERROR_MESSAGE, INFO_GIT, INFO_GIT_ADD, INFO_GIT_COMMIT, INFO_GIT_ERROR, INFO_GIT_PULL
+from files.helpers import get_current_date
 
 
 def print_info_message(message):
@@ -6,7 +7,7 @@ def print_info_message(message):
 
 
 def get_commit_message():
-    return COMMIT_MESSAGE
+    return COMMIT_MESSAGE + str(get_current_date())
 
 
 def print_commit_message(message):
