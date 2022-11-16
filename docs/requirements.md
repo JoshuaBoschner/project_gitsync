@@ -1,1 +1,4 @@
 - show how many files got pushed / added to staging area / pulled usw
+- console nach ausführen offen lassen oder mit enter schließen
+- exception handling wenn kein repo gefunden
+  - 
