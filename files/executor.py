@@ -1,4 +1,3 @@
-from files.helpers import get_current_date
 from files.log import get_commit_message, print_add_message, print_commit_message, print_custom_error_message, print_info_message, print_pull_message
 
 

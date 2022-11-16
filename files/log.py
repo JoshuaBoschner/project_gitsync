@@ -1,5 +1,6 @@
+import datetime
+
 from conf.static import COMMIT_MESSAGE, ERROR_MESSAGE, INFO_GIT, INFO_GIT_ADD, INFO_GIT_COMMIT, INFO_GIT_ERROR, INFO_GIT_PULL
-from files.helpers import get_current_date
 
 
 def print_info_message(message):
@@ -28,3 +29,7 @@ def print_push_error_message():
 
 def print_custom_error_message(message):
     print(INFO_GIT_ERROR + message)
+
+
+def get_current_date():
+    return datetime.datetime.now().strftime("%c")
