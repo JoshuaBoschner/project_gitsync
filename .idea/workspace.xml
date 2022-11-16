@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8035a317-29f1-46b9-9fd6-a967084b1f63" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/files/executor.py" beforeDir="false" afterPath="$PROJECT_DIR$/files/executor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/requirements.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/requirements.md" afterDir="false" />
     </list>
     <list id="c0656e9e-1d45-4381-ae26-c5b864aba267" name="Unversioned Files - idea" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -75,7 +76,7 @@
       <workItem from="1668184404481" duration="418000" />
       <workItem from="1668237704174" duration="533000" />
       <workItem from="1668609083500" duration="466000" />
-      <workItem from="1668609568832" duration="839000" />
+      <workItem from="1668609568832" duration="1841000" />
     </task>
     <servers />
   </component>
@@ -105,6 +106,6 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/gitsync$main.coverage" NAME="main Coverage Results" MODIFIED="1668610385807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/gitsync$main.coverage" NAME="main Coverage Results" MODIFIED="1668610617135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

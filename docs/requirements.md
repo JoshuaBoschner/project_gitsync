@@ -1,2 +1,1 @@
 - show how many files got pushed / added to staging area / pulled usw
-- add date to commit message + additional information
