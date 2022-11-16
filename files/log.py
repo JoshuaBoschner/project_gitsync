@@ -7,7 +7,7 @@ def print_info_message(message):
 
 
 def get_commit_message():
-    return COMMIT_MESSAGE + str(get_current_date())
+    return COMMIT_MESSAGE + ' - ' + str(get_current_date())
 
 
 def print_commit_message(message):
