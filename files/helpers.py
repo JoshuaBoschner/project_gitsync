@@ -15,4 +15,4 @@ def get_repository(path_to_push):
 
 
 def get_current_date():
-    return datetime.datetime.now()
+    return datetime.datetime.now().strftime("%c")
