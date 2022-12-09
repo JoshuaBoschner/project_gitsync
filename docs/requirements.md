@@ -2,4 +2,4 @@
 - bugfix: console nach ausführen offen lassen oder mit enter schließen
 - fancy traceback on exception thrown
 - add git status to console output
-- 
+- add functionalty to push multiple folders without git submodules
