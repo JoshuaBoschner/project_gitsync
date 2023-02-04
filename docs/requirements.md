@@ -1,4 +1,5 @@
 - show how many files got pushed / added to staging area / pulled usw
+- show how many commits
 - bugfix: console nach ausführen offen lassen oder mit enter schließen
 - fancy traceback on exception thrown
 - add git status to console output
