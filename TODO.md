@@ -1,0 +1,1 @@
+- script asks to add commit message in cmd, adds custom commit message at the end (Updated from python script - Timestamp - Commit message) 
